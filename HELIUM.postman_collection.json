@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "cda54d3f-a493-47ce-aa57-be79acfd8b92",
+		"name": "HELIUM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25278173"
+	},
+	"item": [
+		{
+			"name": "https://api.helium.io/v1/hotspots/11v7rHkEtfRAAzz4si2kEiroyy1c1nW6JcLnuCpLt7GrqjBdNjn",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.helium.io/v1/hotspots/11v7rHkEtfRAAzz4si2kEiroyy1c1nW6JcLnuCpLt7GrqjBdNjn",
+					"protocol": "https",
+					"host": [
+						"api",
+						"helium",
+						"io"
+					],
+					"path": [
+						"v1",
+						"hotspots",
+						"11v7rHkEtfRAAzz4si2kEiroyy1c1nW6JcLnuCpLt7GrqjBdNjn"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.helium.io/v1/hotspots",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.helium.io/v1/hotspots",
+					"protocol": "https",
+					"host": [
+						"api",
+						"helium",
+						"io"
+					],
+					"path": [
+						"v1",
+						"hotspots"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.helium.io/v1/hotspots/name/gorgeous-banana-shrimp",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.helium.io/v1/hotspots/name/gorgeous-banana-shrimp",
+					"protocol": "https",
+					"host": [
+						"api",
+						"helium",
+						"io"
+					],
+					"path": [
+						"v1",
+						"hotspots",
+						"name",
+						"gorgeous-banana-shrimp"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
